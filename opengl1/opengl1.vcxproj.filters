@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\renderEngine">
+      <UniqueIdentifier>{4975b578-3286-40d9-900d-9a1f5782368a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\renderEngine">
+      <UniqueIdentifier>{6fd59c45-e5aa-48d7-bde5-10f6a81ce997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engineTester">
+      <UniqueIdentifier>{91cc1709-939c-4bff-9067-912f039315ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{8f316ceb-26e4-40cd-bd9a-a893a421bc8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shaders">
+      <UniqueIdentifier>{beb0b9ed-fecc-4139-8eea-6f18919dc86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\textures">
+      <UniqueIdentifier>{8c3545a0-c4dc-44b6-a737-b9114a9b242f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\textures">
+      <UniqueIdentifier>{b58fb741-3e95-4d6e-b773-20267f90eacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models">
+      <UniqueIdentifier>{af65cd86-1225-46bf-be84-65d9f7f2f3b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models">
+      <UniqueIdentifier>{81d14c01-0707-4cbf-91a8-dfcd2490cae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\toolbox">
+      <UniqueIdentifier>{09771800-75a8-4642-8976-38c8bdc6894f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\toolbox">
+      <UniqueIdentifier>{01f569c6-e146-4365-a5b5-e7941c37e48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entities">
+      <UniqueIdentifier>{57ec98a3-5176-4892-8b9f-4e4f43e673ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entities">
+      <UniqueIdentifier>{eff88bfb-6704-42d6-9388-30733eee4d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\water">
+      <UniqueIdentifier>{39c0ecf6-8402-4dcb-b4f2-025c5c1a6335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\water">
+      <UniqueIdentifier>{e4f30258-cbd5-40ef-ae6f-c74f7b7c8c41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DisplayManager.cpp">
+      <Filter>Source Files\renderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\engineTester</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Source Files\renderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\renderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticShader.cpp">
+      <Filter>Source Files\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelTexture.cpp">
+      <Filter>Source Files\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="RawModel.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturedModel.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="glFuncs.cpp">
+      <Filter>Source Files\toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths.cpp">
+      <Filter>Source Files\toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJLoader.cpp">
+      <Filter>Source Files\renderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterRenderer.cpp">
+      <Filter>Source Files\renderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterTile.cpp">
+      <Filter>Source Files\water</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterRenderer.cpp">
+      <Filter>Source Files\water</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterShader.cpp">
+      <Filter>Source Files\water</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterFrameBuffers.cpp">
+      <Filter>Source Files\water</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DisplayManager.h">
+      <Filter>Header Files\renderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Header Files\renderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\renderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticShader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelTexture.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="RawModel.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturedModel.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files\toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.h">
+      <Filter>Header Files\toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="glFuncs.h">
+      <Filter>Header Files\toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h">
+      <Filter>Header Files\renderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterRenderer.h">
+      <Filter>Header Files\renderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterShader.h">
+      <Filter>Header Files\water</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterTile.h">
+      <Filter>Header Files\water</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterRenderer.h">
+      <Filter>Header Files\water</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterFrameBuffers.h">
+      <Filter>Header Files\water</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="frag.fs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="vert.vs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="waterFrag.fs">
+      <Filter>Source Files\water</Filter>
+    </None>
+    <None Include="waterVert.vs">
+      <Filter>Source Files\water</Filter>
+    </None>
+  </ItemGroup>
+</Project>
